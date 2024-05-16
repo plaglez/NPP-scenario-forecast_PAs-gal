@@ -70,8 +70,10 @@ The ecosystem Net Primary Productivity (NPP) can be used as quantification of it
 ***For the variables *NPP_scx_forest* and *NPP_scx_agri*, change x for the climatic scenario label (i.e. 1 for historical, 2 for SSP2-4.5 and 3 for SSP5-8.5).
 
 ## Download
-The dataset can be downloaded at OneDrive
+The datasets with the forecasted NPP for the different scenarios can be downloaded at [OneDrive](https://universidadevigo-my.sharepoint.com/:f:/g/personal/pedro_lago_gonzalez_uvigo_gal/Ep1d-pl_n5lPgmK13efAZ_4B5jced13lNV-aV5XpeGPm4w?e=yVTQwS).
 
+### Additional resources
+The biovariables 1-6 and 10-17  defined as in the [_dismo_ R package](https://cran.r-project.org/web/packages/dismo/dismo.pdf) were calculated for the Autonomous Community of Galicia in the period from 2002 to 2021. The resulting GeoTiff files can be found at [OneDrive](https://universidadevigo-my.sharepoint.com/:f:/g/personal/pedro_lago_gonzalez_uvigo_gal/EustXd8gQ0REud1_ZUskiUsB3gMvtGeAoseOshoztiwfPw?e=idDzaS).  
 
 ## Acknowledgements
 This research was funded by Grant TED2021-130241A-I00 funded by MCIN/AEI/ 10.13039/501100011033 and by the European Union NextGenerationEU/PRTR (X. Álvarez). This research was partially funded by the Conselleira de Educación, Universidade e Formación Profesional, Xunta de Galicia, Spain, under project GPC-ED431B 2022/12 (P. Lago-González) and C. Acuña-Alonso thanks the Postdoctoral Program of Xunta de Galicia (ED481B-2023-042).
