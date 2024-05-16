@@ -17,11 +17,11 @@ The ecosystem Net Primary Productivity (NPP) can be used as quantification of it
 |t_season|Temperature seasonality (sd*100)|ºC|
 |max warm|Maximal temperature of the warmest month|ºC|
 |min_cold|Minimal temperature of the coldest month|ºC|
-|Q3_temperature|Mean temperature of the warmest quarter|ºC|
-|Q1_temperature|Mean temperature of the coldest quarter|ºC|
+|Q3_temp|Mean temperature of the warmest quarter|ºC|
+|Q1_temp|Mean temperature of the coldest quarter|ºC|
 |tp|Total annual precipitation|mm|
 |prec_wet|Precipitation of the wettest month|mm|
-|prec_dri|precipitation of the driest month|mm|
+|prec_dry|precipitation of the driest month|mm|
 |prec_CV|Precipitation seasonality (coefficient of variation)|%|
 |Q1_prec|Precipitation of the wettest quarter|mm|
 |Q3_prec|Precipitation of the driest quarter|mm|
@@ -70,10 +70,28 @@ The ecosystem Net Primary Productivity (NPP) can be used as quantification of it
 ***For the variables *NPP_scx_forest* and *NPP_scx_agri*, change x for the climatic scenario label (i.e. 1 for historical, 2 for SSP2-4.5 and 3 for SSP5-8.5).
 
 ## Download
-The datasets with the forecasted NPP for the different scenarios can be downloaded at [OneDrive](https://universidadevigo-my.sharepoint.com/:f:/g/personal/pedro_lago_gonzalez_uvigo_gal/Ep1d-pl_n5lPgmK13efAZ_4B5jced13lNV-aV5XpeGPm4w?e=yVTQwS).
+The datasets with the forecasted NPP for the different scenarios can be downloaded at [OneDrive](https://universidadevigo-my.sharepoint.com/:x:/g/personal/pedro_lago_gonzalez_uvigo_gal/EeN6n7l9K0dKlNHvcGktqAgBjqEG6TYz5wc_VdkFQ1_wiw?e=M7TGSC).
 
 ### Additional resources
-The biovariables 1-6 and 10-17  defined as in the [_dismo_ R package](https://cran.r-project.org/web/packages/dismo/dismo.pdf) were calculated for the Autonomous Community of Galicia in the period from 2002 to 2021. The resulting GeoTiff files can be found at [OneDrive](https://universidadevigo-my.sharepoint.com/:f:/g/personal/pedro_lago_gonzalez_uvigo_gal/EustXd8gQ0REud1_ZUskiUsB3gMvtGeAoseOshoztiwfPw?e=idDzaS).  
+The biovariables 1-6 and 10-17  defined as in the [_dismo_ R package](https://cran.r-project.org/web/packages/dismo/dismo.pdf) were calculated for the Autonomous Community of Galicia in the period from 2002 to 2021. The resulting GeoTiff files can be downloaded from the following OneDrive links:
+
+[t2m](https://universidadevigo-my.sharepoint.com/:i:/g/personal/pedro_lago_gonzalez_uvigo_gal/EX2C1s97S3dKp6_CsZpiRPQBGYHQKa_mXP70Fi31lDp2QQ?e=ywK5aO), 
+[t_amplitude](https://universidadevigo-my.sharepoint.com/:i:/g/personal/pedro_lago_gonzalez_uvigo_gal/EXwGdQp_HaFHvBzH0FljEicByKQw5x51Rszd1AtYWRNTng?e=2rPUby), 
+[isothermality](https://universidadevigo-my.sharepoint.com/:i:/g/personal/pedro_lago_gonzalez_uvigo_gal/EQa3cOMnmihIhPu-92LrVGQB4Ypm6-e-gfuKoQg7WqzMyg?e=9dj6jA), 
+[t_season](https://universidadevigo-my.sharepoint.com/:i:/g/personal/pedro_lago_gonzalez_uvigo_gal/ET5Aajx6VTRFssxJd7unp8QBT7qhdLk-avW0DUl-AmjpPg?e=NtOMme), 
+[max warm](https://universidadevigo-my.sharepoint.com/:i:/g/personal/pedro_lago_gonzalez_uvigo_gal/EaebXvw9EQRErAPEuDlQ4dwB6K7s1Td1hMtKGtd72ljECA?e=YWnxoM), 
+[min_cold](https://universidadevigo-my.sharepoint.com/:i:/g/personal/pedro_lago_gonzalez_uvigo_gal/EYnni4J6jYFEoGkVaT3ith4BxfNyC_e5HdMmRLs_XAVglQ?e=OCh2Nf), 
+[Q3_temp](https://universidadevigo-my.sharepoint.com/:i:/g/personal/pedro_lago_gonzalez_uvigo_gal/EVYl9yUCtKlIp1hgLZjcwqkBtQW4-jZQcdaYIIUrkz0jnA?e=9JGBP4), 
+[Q1_temp](https://universidadevigo-my.sharepoint.com/:i:/g/personal/pedro_lago_gonzalez_uvigo_gal/ESMye8Mjt5NKsaoj5TXXqyMBUxvwUQwBsPSz6pV-5R6vZA?e=XM64NC)
+
+[tp](https://universidadevigo-my.sharepoint.com/:i:/g/personal/pedro_lago_gonzalez_uvigo_gal/Ee8ZzIEqti1EmCcP4nLt9KsBKJ4j0VuLcHsLmvQ0Y9J8HA?e=obWNyQ), 
+[prec_wet](https://universidadevigo-my.sharepoint.com/:i:/g/personal/pedro_lago_gonzalez_uvigo_gal/EcTl8n-gyJhJn435thl1J-cBFeJv-YgO4odJQa0e1AJAlg?e=aitWmy), 
+[prec_dry](https://universidadevigo-my.sharepoint.com/:i:/g/personal/pedro_lago_gonzalez_uvigo_gal/Ebxw_WOj6m5DkolYlhmEWawB95ovtd4ZGhvPKfot_qnAKA?e=Woa2Ul), 
+[prec_CV](https://universidadevigo-my.sharepoint.com/:i:/g/personal/pedro_lago_gonzalez_uvigo_gal/Ea68m9wLxDpBm1W9neF3DbYBfNL0LbgwFQyS9p2D-BjpuA?e=hJH2Tm), 
+[Q1_prec](https://universidadevigo-my.sharepoint.com/:i:/g/personal/pedro_lago_gonzalez_uvigo_gal/EVqX8lCtFDpIlY-qly1vJZEBhJUWZgPtXSvMmEztIlYpCA?e=2MYMCT), 
+[Q3_prec](https://universidadevigo-my.sharepoint.com/:i:/g/personal/pedro_lago_gonzalez_uvigo_gal/ES2SmxqP_h5MjAng9PXsZDcBC2iQWEs4sjz4ZLHYroL0qA?e=iYJk9T).
+
+The filtered NPP (.tif) obtained from MODIS between 2001 and 2023 is also available at [OneDrive](https://universidadevigo-my.sharepoint.com/:i:/g/personal/pedro_lago_gonzalez_uvigo_gal/EY_CLH63GaxFs0513lCPBGIB_Qsw6b9EByATHqzfG5Cwzg?e=pgJP2H).
 
 ## Acknowledgements
 This research was funded by Grant TED2021-130241A-I00 funded by MCIN/AEI/ 10.13039/501100011033 and by the European Union NextGenerationEU/PRTR (X. Álvarez). This research was partially funded by the Conselleira de Educación, Universidade e Formación Profesional, Xunta de Galicia, Spain, under project GPC-ED431B 2022/12 (P. Lago-González) and C. Acuña-Alonso thanks the Postdoctoral Program of Xunta de Galicia (ED481B-2023-042).
